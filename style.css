@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    height: 120px;
+    width: 1250px;
+}
+
+.nav-container {
+    width: 1000px;
+    margin: 20px 125px;
+}
+
+.nav-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-color: #00d1b2;
+    height: 50px;
+}
+
+.nav-title {
+    font-size: 2rem;
+}
+
+.search-bar {
+    flex: 2;
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 0 30px;
+}
+
+.search-bar input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem; 
+    width: 600px;
+}
+
+.search-bar button {
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.search-bar button img {
+    width: 20px;
+}
+
+.sign-in button, .cart button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.cart button img{
+    height: 30px;
+    margin-left: 20px;
+}
+
+.nav-links {
+    margin: 20px 0 0 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    width: 1000px;
+    margin: 0 125px;
+}
+
+main {
+    width: 1000px;
+    margin: 20px 125px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 35px;
+}
+
+.top-content {
+    display: flex;
+}
+
+.left-colum {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.middle-column{
+    margin-right: 20px;
+    flex: 1;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.discover {
+    background-color: #00d1b2;
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.discover button {
+    outline: none;
+    border: none;
+    background-color: #00d1b2;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 24px;
+}
+
+.arrow {
+    width: 40px;
+    height: 20px;
+}
+
+.middle-column img {
+    flex: 1;
+    height: 250px;
+}
+
+.soothing-img img {
+    height: 180px;
+}
+
+.soothing button {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #00d1b2;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.bottom-content {
+    margin-top: 20px;
+    display: flex;
+    background-color: #aeeae9;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.succulents img {
+    width: 100%;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.succulents p {
+    text-align: center;
+}
+
+.cookie-popup {
+    border: 2px solid black;
+    width: 1000px;
+    margin-left: 125px;
+    display: flex;
+    position: fixed;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.cookie-policy {
+    width: 700px;
+}
+
+.accept-cookies button {
+    background-color: #00d1b2;
+    height: 40px; 
+    padding: 0 10px;
+    font-size: 1.2rem;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
+}
